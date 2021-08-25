@@ -1,0 +1,19 @@
+Used_cars
+
+Id_car			BIGINT Primary_key AUTO_INCREMENT
+Marca			VARCHAR(30) NOTNULL
+Modello			VARCHAR(30) NOTNULL
+Anno_immatricolazione	YEAR NOTNULL
+Alimentazione		CHAR(10) NOTNULL
+Km			MEDIUMINT NOTNULL
+Cilindrata		SMALL NOTNULL
+Prezzo			FLOAT(7,2) NOTNULL
+Finanziabile		TINYINT	DEFAULT(0)
+Immagine		VARCHAR(255)
+Colore			VARCHAR(20)
+Proprietari_precedenti	TINYINT
+Carrozzeria		VARCHAR(30) NOTNULL
+Kw			SMALL NOTNULL
+Cambio			CHAR(12) NOTNULL
+Data_inserimento	TIMESTAMP
+Data_aggiornamento	TIMESTAMP
